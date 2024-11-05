@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .nav-links{
+        @apply hover:underline hover:underline-offset-4 hover:decoration-solid hover:decoration-2 hover:transition  hover:duration-300 hover:decoration-stone-600 ease-in-out;
+    }
+
+    
+}
+
+@layer utilities{
+    .hover_links{
+        @apply hover:-translate-y-2 ease-linear duration-300 transition;
+    }
+}
